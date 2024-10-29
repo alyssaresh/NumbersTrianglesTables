@@ -7,7 +7,7 @@ public class TableUtilities {
 
         for (int i = 1; i <= tableSize; i++) {
             for (int j = 1; j <= tableSize; j++) {
-                result.append(String.format("%3d|", i * j)); // Append the product
+                result.append(String.format("%3d" + " |", i * j)); // Append the product
             }
             result.append("\n");
         }
