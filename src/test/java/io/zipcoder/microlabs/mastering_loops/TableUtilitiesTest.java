@@ -20,7 +20,8 @@ public class TableUtilitiesTest {
 
     @Test
     public void testTable2() {
-        String expected = "  1 |  2 |\n" + "  2 |  4 |\n";
+        String expected = "  1 |  2 |\n" +
+                        "  2 |  4 |\n";
 
         String actual = TableUtilities.getMultiplicationTable(2);
         Assert.assertEquals(expected, actual);
